@@ -44,7 +44,7 @@ public:
 
 
     std::vector<std::string> lineread;
-    std::string startfile = "/home/augustinas/C/GameProject/GameApp/exm/";          // path to start file
+    std::string startfile = "../../GameApp/exm/";          // path to start file
     std::string target = startfile+"0th.txt";
 
     void loadfromfile();
